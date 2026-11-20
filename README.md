@@ -7,7 +7,7 @@
 Centralized archive of square emblem and project artwork assets for `projectGloria` repositories.
 
 <!-- AUTO:BADGES_START -->
-<img src="https://img.shields.io/badge/assets-20_emblems-A855F7?style=flat-square" alt="Assets" />
+<img src="https://img.shields.io/badge/assets-21_emblems-A855F7?style=flat-square" alt="Assets" />
 <img src="https://img.shields.io/badge/formats-PNG_%7C_JPEG-2b2d34?style=flat-square" alt="Formats" />
 <img src="https://img.shields.io/badge/aspect_ratio-1%3A1-2b2d34?style=flat-square" alt="Aspect Ratio" />
 <img src="https://img.shields.io/github/last-commit/projectGloria/Signa?style=flat-square&color=A855F7" alt="Last commit" />
@@ -40,33 +40,39 @@ Centralized archive of square emblem and project artwork assets for `projectGlor
 <table align="center">
   <tr>
     <td align="center" width="180"><img src="Ada.png" width="140" alt="Ada" /><br /><code>Ada.png</code></td>
+    <td align="center" width="180"><img src="Auriga.png" width="140" alt="Auriga" /><br /><code>Auriga.png</code></td>
     <td align="center" width="180"><img src="Babbage.png" width="140" alt="Babbage" /><br /><code>Babbage.png</code></td>
     <td align="center" width="180"><img src="BraveTweaker.png" width="140" alt="BraveTweaker" /><br /><code>BraveTweaker.png</code></td>
-    <td align="center" width="180"><img src="Carmen.jpg" width="140" alt="Carmen" /><br /><code>Carmen.jpg</code></td>
   </tr>
   <tr>
+    <td align="center" width="180"><img src="Carmen.jpg" width="140" alt="Carmen" /><br /><code>Carmen.jpg</code></td>
     <td align="center" width="180"><img src="Emissa.jpg" width="140" alt="Emissa" /><br /><code>Emissa.jpg</code></td>
     <td align="center" width="180"><img src="FFMPEG-Toolkit.jpg" width="140" alt="FFMPEG-Toolkit" /><br /><code>FFMPEG-Toolkit.jpg</code></td>
     <td align="center" width="180"><img src="Gloria.png" width="140" alt="Gloria" /><br /><code>Gloria.png</code></td>
-    <td align="center" width="180"><img src="GloriaRed.png" width="140" alt="GloriaRed" /><br /><code>GloriaRed.png</code></td>
   </tr>
   <tr>
+    <td align="center" width="180"><img src="GloriaRed.png" width="140" alt="GloriaRed" /><br /><code>GloriaRed.png</code></td>
     <td align="center" width="180"><img src="Inscriptio.jpg" width="140" alt="Inscriptio" /><br /><code>Inscriptio.jpg</code></td>
     <td align="center" width="180"><img src="Keystroker.jpg" width="140" alt="Keystroker" /><br /><code>Keystroker.jpg</code></td>
     <td align="center" width="180"><img src="Kintsugi.jpg" width="140" alt="Kintsugi" /><br /><code>Kintsugi.jpg</code></td>
-    <td align="center" width="180"><img src="LLMSkillz.png" width="140" alt="LLMSkillz" /><br /><code>LLMSkillz.png</code></td>
   </tr>
   <tr>
+    <td align="center" width="180"><img src="LLMSkillz.png" width="140" alt="LLMSkillz" /><br /><code>LLMSkillz.png</code></td>
     <td align="center" width="180"><img src="Lumina.jpeg" width="140" alt="Lumina" /><br /><code>Lumina.jpeg</code></td>
     <td align="center" width="180"><img src="Lyra.png" width="140" alt="Lyra" /><br /><code>Lyra.png</code></td>
     <td align="center" width="180"><img src="Mutatio.jpg" width="140" alt="Mutatio" /><br /><code>Mutatio.jpg</code></td>
-    <td align="center" width="180"><img src="Quick%20Notes.jpeg" width="140" alt="Quick Notes" /><br /><code>Quick Notes.jpeg</code></td>
   </tr>
   <tr>
+    <td align="center" width="180"><img src="Quick%20Notes.jpeg" width="140" alt="Quick Notes" /><br /><code>Quick Notes.jpeg</code></td>
     <td align="center" width="180"><img src="Simulacrum.jpg" width="140" alt="Simulacrum" /><br /><code>Simulacrum.jpg</code></td>
     <td align="center" width="180"><img src="Tabula%20Rasa.png" width="140" alt="Tabula Rasa" /><br /><code>Tabula Rasa.png</code></td>
     <td align="center" width="180"><img src="Vulpes.png" width="140" alt="Vulpes" /><br /><code>Vulpes.png</code></td>
+  </tr>
+  <tr>
     <td align="center" width="180"><img src="Windows%20Tweaks.png" width="140" alt="Windows Tweaks" /><br /><code>Windows Tweaks.png</code></td>
+    <td align="center" width="180"></td>
+    <td align="center" width="180"></td>
+    <td align="center" width="180"></td>
   </tr>
 </table>
 <!-- AUTO:GALLERY_END -->
@@ -111,6 +117,7 @@ git clone https://github.com/projectGloria/Signa.git
 | File | Format | Resolution | Size | Background Hex |
 | :--- | :--- | :--- | :--- | :--- |
 | [`Ada.png`](Ada.png) | PNG | `1254x1254` | 2.84 MB | `#910204` |
+| [`Auriga.png`](Auriga.png) | PNG | `1254x1254` | 2.78 MB | `#0134F1` |
 | [`Babbage.png`](Babbage.png) | PNG | `1254x1254` | 2.80 MB | `#A30201` |
 | [`BraveTweaker.png`](BraveTweaker.png) | PNG | `1254x1254` | 2.84 MB | `#F72002` |
 | [`Carmen.jpg`](Carmen.jpg) | JPG | `2048x2048` | 3.47 MB | `#43141A` |
