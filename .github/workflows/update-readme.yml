@@ -1,0 +1,56 @@
+name: Update README & Banner
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "*.png"
+      - "*.jpg"
+      - "*.jpeg"
+      - "*.webp"
+      - "*.PNG"
+      - "*.JPG"
+      - "*.JPEG"
+      - "*.WEBP"
+      - "scripts/update_readme.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: pip install --no-cache-dir pillow
+
+      - name: Regenerate README and banner
+        run: python scripts/update_readme.py
+
+      - name: Commit and push changes
+        run: |
+          if [ -n "$(git status --porcelain README.md docs/assets/banner.svg)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md docs/assets/banner.svg
+            git commit -m "docs: auto-update README and banner [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi

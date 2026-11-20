@@ -6,10 +6,12 @@
 
 Centralized archive of square emblem and project artwork assets for `projectGloria` repositories.
 
+<!-- AUTO:BADGES_START -->
 <img src="https://img.shields.io/badge/assets-19_emblems-A855F7?style=flat-square" alt="Assets" />
 <img src="https://img.shields.io/badge/formats-PNG_%7C_JPEG-2b2d34?style=flat-square" alt="Formats" />
 <img src="https://img.shields.io/badge/aspect_ratio-1%3A1-2b2d34?style=flat-square" alt="Aspect Ratio" />
 <img src="https://img.shields.io/github/last-commit/projectGloria/Signa?style=flat-square&color=A855F7" alt="Last commit" />
+<!-- AUTO:BADGES_END -->
 
 <br /><br />
 
@@ -23,17 +25,18 @@ Centralized archive of square emblem and project artwork assets for `projectGlor
 
 ## About
 
-**Signa** is a static image repository hosted at `projectGloria/Signa` that stores 19 high-resolution square (`1:1`) emblems and artwork files in PNG and JPEG formats for `projectGloria` projects. The repository contains no build scripts, runtime code, or external dependencies; assets are stored directly at the repository root on the `main` branch and referenced either via raw GitHub URLs or a local Git clone.
+**Signa** is a static image repository hosted at `projectGloria/Signa` that stores high-resolution square (`1:1`) emblems and artwork files in PNG and JPEG formats for `projectGloria` projects. Assets are stored directly at the repository root on the `main` branch and referenced via raw GitHub URLs or a local Git clone. A GitHub Action automatically updates the badges, banner, gallery, and asset catalog whenever root image files are pushed.
 
 ## Features
 
-- **19 Square Emblems** — High-resolution `1:1` artwork covering 18 distinct projects plus the alternate `GloriaRed.png` variant.
-- **Consistent Resolution Tiers** — Assets are stored at `1212x1212`, `1254x1254`, or `2048x2048` pixels for downscaling into icons, avatars, and README headers without upscaling artifacts.
+- **Square Project Emblems** — High-resolution `1:1` artwork for `projectGloria` repositories, including alternate variants such as `GloriaRed.png`.
+- **Consistent Resolution Tiers** — Assets are stored at high square resolutions (`1212x1212` to `2048x2048`) for downscaling into icons, avatars, and README headers without upscaling artifacts.
 - **Root-Level Flat Layout** — Every image resides in the repository root with its project name as the filename, keeping raw URLs short and predictable.
-- **Git-Tracked Asset History** — Format migrations (such as replacing `Lyra.jpg` with `Lyra.png`) and new emblem additions are versioned directly in Git.
+- **Automated README & Banner Sync** — Pushing, renaming, or removing root image files triggers `.github/workflows/update-readme.yml` to regenerate the gallery, catalog metadata, badges, and banner automatically.
 
 ## Gallery
 
+<!-- AUTO:GALLERY_START -->
 <table align="center">
   <tr>
     <td align="center" width="180"><img src="Ada.png" width="140" alt="Ada" /><br /><code>Ada.png</code></td>
@@ -66,6 +69,7 @@ Centralized archive of square emblem and project artwork assets for `projectGlor
     <td align="center" width="180"></td>
   </tr>
 </table>
+<!-- AUTO:GALLERY_END -->
 
 ## How it works
 
@@ -103,6 +107,7 @@ git clone https://github.com/projectGloria/Signa.git
 
 ## Asset Catalog
 
+<!-- AUTO:CATALOG_START -->
 | File | Format | Resolution | Size | Background Hex |
 | :--- | :--- | :--- | :--- | :--- |
 | [`Ada.png`](Ada.png) | PNG | `1254x1254` | 2.84 MB | `#910204` |
@@ -124,6 +129,7 @@ git clone https://github.com/projectGloria/Signa.git
 | [`Tabula Rasa.png`](Tabula%20Rasa.png) | PNG | `1254x1254` | 2.71 MB | `#6F2587` |
 | [`Vulpes.png`](Vulpes.png) | PNG | `1254x1254` | 2.93 MB | `#FC5002` |
 | [`Windows Tweaks.png`](Windows%20Tweaks.png) | PNG | `1254x1254` | 2.34 MB | `#D20302` |
+<!-- AUTO:CATALOG_END -->
 
 ## Troubleshooting
 
