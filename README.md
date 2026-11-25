@@ -7,7 +7,7 @@
 Centralized archive of square emblem and project artwork assets for `projectGloria` repositories.
 
 <!-- AUTO:BADGES_START -->
-<img src="https://img.shields.io/badge/assets-23_emblems-A855F7?style=flat-square" alt="Assets" />
+<img src="https://img.shields.io/badge/assets-24_emblems-A855F7?style=flat-square" alt="Assets" />
 <img src="https://img.shields.io/badge/formats-PNG_%7C_JPEG-2b2d34?style=flat-square" alt="Formats" />
 <img src="https://img.shields.io/badge/aspect_ratio-1%3A1-2b2d34?style=flat-square" alt="Aspect Ratio" />
 <img src="https://img.shields.io/github/last-commit/projectGloria/Signa?style=flat-square&color=A855F7" alt="Last commit" />
@@ -80,9 +80,9 @@ Generation runs locally with Stable Diffusion 1.5 and stable-diffusion.cpp. The 
   </tr>
   <tr>
     <td align="center" width="180"><img src="Vulpes.png" width="140" alt="Vulpes" /><br /><code>Vulpes.png</code></td>
+    <td align="center" width="180"><img src="Wallupus.png" width="140" alt="Wallupus" /><br /><code>Wallupus.png</code></td>
     <td align="center" width="180"><img src="Windows%20Tweaks.png" width="140" alt="Windows Tweaks" /><br /><code>Windows Tweaks.png</code></td>
     <td align="center" width="180"><img src="WingetUI.png" width="140" alt="WingetUI" /><br /><code>WingetUI.png</code></td>
-    <td align="center" width="180"></td>
   </tr>
 </table>
 <!-- AUTO:GALLERY_END -->
@@ -147,6 +147,7 @@ git clone https://github.com/projectGloria/Signa.git
 | [`Simulacrum.jpg`](Simulacrum.jpg) | JPG | `2048x2048` | 1.78 MB | `#FFFFFF` |
 | [`Tabula Rasa.png`](Tabula%20Rasa.png) | PNG | `1254x1254` | 2.71 MB | `#6F2587` |
 | [`Vulpes.png`](Vulpes.png) | PNG | `1254x1254` | 2.93 MB | `#FC5002` |
+| [`Wallupus.png`](Wallupus.png) | PNG | `1254x1254` | 3.15 MB | `#B50203` |
 | [`Windows Tweaks.png`](Windows%20Tweaks.png) | PNG | `1254x1254` | 2.34 MB | `#D20302` |
 | [`WingetUI.png`](WingetUI.png) | PNG | `1254x1254` | 2.02 MB | `#0158FD` |
 <!-- AUTO:CATALOG_END -->
