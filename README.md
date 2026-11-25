@@ -7,7 +7,7 @@
 Centralized archive of square emblem and project artwork assets for `projectGloria` repositories.
 
 <!-- AUTO:BADGES_START -->
-<img src="https://img.shields.io/badge/assets-21_emblems-A855F7?style=flat-square" alt="Assets" />
+<img src="https://img.shields.io/badge/assets-23_emblems-A855F7?style=flat-square" alt="Assets" />
 <img src="https://img.shields.io/badge/formats-PNG_%7C_JPEG-2b2d34?style=flat-square" alt="Formats" />
 <img src="https://img.shields.io/badge/aspect_ratio-1%3A1-2b2d34?style=flat-square" alt="Aspect Ratio" />
 <img src="https://img.shields.io/github/last-commit/projectGloria/Signa?style=flat-square&color=A855F7" alt="Last commit" />
@@ -62,26 +62,26 @@ Generation runs locally with Stable Diffusion 1.5 and stable-diffusion.cpp. The 
   </tr>
   <tr>
     <td align="center" width="180"><img src="GloriaRed.png" width="140" alt="GloriaRed" /><br /><code>GloriaRed.png</code></td>
+    <td align="center" width="180"><img src="GloriaSetup.png" width="140" alt="GloriaSetup" /><br /><code>GloriaSetup.png</code></td>
     <td align="center" width="180"><img src="Inscriptio.jpg" width="140" alt="Inscriptio" /><br /><code>Inscriptio.jpg</code></td>
     <td align="center" width="180"><img src="Keystroker.jpg" width="140" alt="Keystroker" /><br /><code>Keystroker.jpg</code></td>
-    <td align="center" width="180"><img src="Kintsugi.jpg" width="140" alt="Kintsugi" /><br /><code>Kintsugi.jpg</code></td>
   </tr>
   <tr>
+    <td align="center" width="180"><img src="Kintsugi.jpg" width="140" alt="Kintsugi" /><br /><code>Kintsugi.jpg</code></td>
     <td align="center" width="180"><img src="LLMSkillz.png" width="140" alt="LLMSkillz" /><br /><code>LLMSkillz.png</code></td>
     <td align="center" width="180"><img src="Lumina.jpeg" width="140" alt="Lumina" /><br /><code>Lumina.jpeg</code></td>
     <td align="center" width="180"><img src="Lyra.png" width="140" alt="Lyra" /><br /><code>Lyra.png</code></td>
-    <td align="center" width="180"><img src="Mutatio.jpg" width="140" alt="Mutatio" /><br /><code>Mutatio.jpg</code></td>
   </tr>
   <tr>
+    <td align="center" width="180"><img src="Mutatio.jpg" width="140" alt="Mutatio" /><br /><code>Mutatio.jpg</code></td>
     <td align="center" width="180"><img src="Quick%20Notes.jpeg" width="140" alt="Quick Notes" /><br /><code>Quick Notes.jpeg</code></td>
     <td align="center" width="180"><img src="Simulacrum.jpg" width="140" alt="Simulacrum" /><br /><code>Simulacrum.jpg</code></td>
     <td align="center" width="180"><img src="Tabula%20Rasa.png" width="140" alt="Tabula Rasa" /><br /><code>Tabula Rasa.png</code></td>
-    <td align="center" width="180"><img src="Vulpes.png" width="140" alt="Vulpes" /><br /><code>Vulpes.png</code></td>
   </tr>
   <tr>
+    <td align="center" width="180"><img src="Vulpes.png" width="140" alt="Vulpes" /><br /><code>Vulpes.png</code></td>
     <td align="center" width="180"><img src="Windows%20Tweaks.png" width="140" alt="Windows Tweaks" /><br /><code>Windows Tweaks.png</code></td>
-    <td align="center" width="180"></td>
-    <td align="center" width="180"></td>
+    <td align="center" width="180"><img src="WingetUI.png" width="140" alt="WingetUI" /><br /><code>WingetUI.png</code></td>
     <td align="center" width="180"></td>
   </tr>
 </table>
@@ -135,6 +135,7 @@ git clone https://github.com/projectGloria/Signa.git
 | [`FFMPEG-Toolkit.jpg`](FFMPEG-Toolkit.jpg) | JPG | `2048x2048` | 2.45 MB | `#AC08F2` |
 | [`Gloria.png`](Gloria.png) | PNG | `1212x1212` | 2.15 MB | `#7907B9` |
 | [`GloriaRed.png`](GloriaRed.png) | PNG | `1212x1212` | 2.24 MB | `#B90707` |
+| [`GloriaSetup.png`](GloriaSetup.png) | PNG | `1254x1254` | 2.62 MB | `#468437` |
 | [`Inscriptio.jpg`](Inscriptio.jpg) | JPG | `2048x2048` | 2.06 MB | `#0A8485` |
 | [`Keystroker.jpg`](Keystroker.jpg) | JPG | `2048x2048` | 1.62 MB | `#9E0B28` |
 | [`Kintsugi.jpg`](Kintsugi.jpg) | JPG | `2048x2048` | 2.13 MB | `#000000` |
@@ -147,6 +148,7 @@ git clone https://github.com/projectGloria/Signa.git
 | [`Tabula Rasa.png`](Tabula%20Rasa.png) | PNG | `1254x1254` | 2.71 MB | `#6F2587` |
 | [`Vulpes.png`](Vulpes.png) | PNG | `1254x1254` | 2.93 MB | `#FC5002` |
 | [`Windows Tweaks.png`](Windows%20Tweaks.png) | PNG | `1254x1254` | 2.34 MB | `#D20302` |
+| [`WingetUI.png`](WingetUI.png) | PNG | `1254x1254` | 2.02 MB | `#0158FD` |
 <!-- AUTO:CATALOG_END -->
 
 ## Troubleshooting
