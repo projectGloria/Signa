@@ -27,6 +27,16 @@ Centralized archive of square emblem and project artwork assets for `projectGlor
 
 **Signa** is a static image repository hosted at `projectGloria/Signa` that stores high-resolution square (`1:1`) emblems and artwork files in PNG and JPEG formats for `projectGloria` projects. Assets are stored directly at the repository root on the `main` branch and referenced via raw GitHub URLs or a local Git clone. A GitHub Action automatically updates the badges, banner, gallery, and asset catalog whenever root image files are pushed.
 
+## Signa Studio
+
+Signa Studio is a Windows desktop app for generating square emblems offline. Choose an artwork reference, describe a new subject and background, and click **Generate icon**. Each run uses a new seed. To revise an icon, describe the desired result and click **Refine displayed result**. Use the history selector to revisit previous runs.
+
+Generation runs locally with Stable Diffusion 1.5 and stable-diffusion.cpp. The app uses the reference as the starting image and adds engraving instructions to the prompt. Composition and color can carry over from the reference. The preview includes a 32-pixel rendering. PNG export retains the 512-pixel artwork and ICO export includes sizes up to 256 pixels. Generated PNGs are kept in `%LOCALAPPDATA%\SignaStudio\artwork`.
+
+**Packaged app.** Open `Signa Studio.exe`. To transfer it to another Windows x64 PC, copy the executable and its adjacent `engine`, `models`, and `references` folders together. This layout supports offline installation by file copy.
+
+**Running from source.** Install Python 3 with Tk and Pillow, then run `scripts/install-studio-engine.ps1` once in PowerShell to download and verify the engine and model (about 2.2 GB). Launch `Signa Studio.pyw` with Python. For an air-gapped machine, provision the files on another PC and transfer the packaged app folder. [Engine project](https://github.com/leejet/stable-diffusion.cpp) · [Model files](https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive)
+
 ## Features
 
 - **Square Project Emblems** — High-resolution `1:1` artwork for `projectGloria` repositories, including alternate variants such as `GloriaRed.png`.
